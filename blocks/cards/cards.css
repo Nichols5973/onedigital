@@ -9,15 +9,19 @@
 
 .cards > ul > li {
   border: 1px solid var(--dark-color);
-  background-color: var(--background-color);
+  background-color: #D6D6DA;
 }
 
 .cards .cards-card-body {
   margin: 16px;
+  font-family: industry;
+  font-weight: 200;
+  text-transform: uppercase;
 }
 
 .cards .cards-card-image {
   line-height: 0;
+  max-width: 146px;
 }
 
 .cards .cards-card-body > *:first-child {
@@ -27,7 +31,8 @@
 .cards > ul > li img {
   width: 100%;
   aspect-ratio: 4 / 3;
-  object-fit: cover;
+  object-fit: contain;
+  margin-left: 120px;
 }
 
 /* chris */
